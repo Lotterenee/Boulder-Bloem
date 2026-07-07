@@ -1,8 +1,8 @@
 {
-  "name": "harness-railway-starter",
+  "name": "boulder-bloem-website",
   "private": true,
-  "version": "0.0.0",
-  "description": "Delete-me starter that proves the harness Railway pipeline is live. Replace with your real app.",
+  "version": "0.1.0",
+  "description": "Boulder Bloem: natuurlijke, ecologische speelplekken. Statische marketingsite.",
   "type": "module",
   "scripts": {
     "start": "node server.js"

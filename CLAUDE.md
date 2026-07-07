@@ -2,7 +2,7 @@
 This project's CI/CD was set up by the harness-forge harness. Read .claude/HARNESS.md for details on which files are harness-managed (don't edit; they get overwritten on upgrade) and how to extend the setup.
 
 Starter app
-The harness scaffolds a minimal Node + Express "it works" app (server.js, package.json, .gitignore) so the Railway pipeline has something to deploy on the very first push. Visit the Railway preview URL after pushing a feature branch and you'll see a page confirming the pipeline is live, with branch name, environment, and git SHA.
+The harness scaffolds a minimal Node + Express "it works" app (server.js, package.json, .gitignore) so the Railway pipeline has something to deploy on the very first push. In this repo the starter server.js has since been replaced: it serves the Boulder Bloem site from public/ (see "Project: Boulder Bloem website" below), so the preview URL shows the site itself rather than the starter page.
 
 These three files are write-once: /harness-upgrade will never overwrite them and never recreate them if you delete them. To build your real app, just edit server.js (and package.json). To use a non-Node stack, delete all three files and update railway.json's startCommand and watchPatterns for your runtime; nothing in the harness will pull the starter back.
 
