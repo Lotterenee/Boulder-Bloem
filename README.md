@@ -23,6 +23,15 @@ your real app whenever you are ready, in any language Railway can run.
 [Code Only cell](https://github.com/Evolutionary-Leadership/harness-claude-github)
 gives you the same feature workflow without the Railway pieces.)
 
+## This project: Boulder Bloem
+
+On top of the template, this repo contains the **Boulder Bloem website**:
+five static, Dutch-language pages for a builder of natural playgrounds,
+living in `public/` (`index.html`, `aanpak.html`, `groen.html`,
+`educatie.html`, `subsidies.html`). The starter `server.js` does **not**
+serve `public/` yet; wiring that up is planned as the next feature, so
+preview deploys still show the starter page for now.
+
 ## The idea in one diagram
 
 You describe the work in plain language. A branch-naming convention and a
