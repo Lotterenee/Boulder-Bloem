@@ -28,9 +28,9 @@ gives you the same feature workflow without the Railway pieces.)
 On top of the template, this repo contains the **Boulder Bloem website**:
 five static, Dutch-language pages for a builder of natural playgrounds,
 living in `public/` (`index.html`, `aanpak.html`, `groen.html`,
-`educatie.html`, `subsidies.html`). The starter `server.js` does **not**
-serve `public/` yet; wiring that up is planned as the next feature, so
-preview deploys still show the starter page for now.
+`educatie.html`, `subsidies.html`). `server.js` serves `public/` with
+clean URLs (`/aanpak` maps to `aanpak.html`) and a `/healthz` endpoint,
+so preview deploys show the site itself, not the starter page.
 
 ## The idea in one diagram
 
